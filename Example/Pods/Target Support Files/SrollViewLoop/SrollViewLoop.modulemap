@@ -1,0 +1,6 @@
+framework module SrollViewLoop {
+  umbrella header "SrollViewLoop-umbrella.h"
+
+  export *
+  module * { export * }
+}

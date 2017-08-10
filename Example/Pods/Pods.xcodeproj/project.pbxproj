@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26CD55FE52292ADC50E64E68DFDF2267 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		26E6E5CAF85D38B1FC06563F023A6B50 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E75A73F23A9B6732458343298F3B6C7 /* ReplaceMe.m */; };
+		404EC380B64A77ED500B2101781EE57C /* Pods-SrollViewLoop_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C350A52FB7412E5C1A5ED2250E53E954 /* Pods-SrollViewLoop_Tests-dummy.m */; };
+		474C43B566C8417A6E443041F4F9CE68 /* Pods-SrollViewLoop_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F27639C22ACD898B0A3826CF351F8E66 /* Pods-SrollViewLoop_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCBBF69FF250E666F4212FEB3C73D55 /* SrollViewLoop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15995578D01068B81DCC3EB8F09B801 /* SrollViewLoop-dummy.m */; };
+		903430391C3758FFE7CDC45FAA0DDCEF /* SrollViewLoop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B51A1CC270690554C00BCB4BA69B7AD /* SrollViewLoop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D89198E463E2EAABF941BB6B6A6F71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		197B8DD0382FFAACDCAA73D56F67AEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2AAB0F2176F7CB07BF82A340F5B3CBC;
+			remoteInfo = SrollViewLoop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05177BE0568A754371B3EDBBE0C77EAE /* SrollViewLoop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SrollViewLoop.xcconfig; sourceTree = "<group>"; };
+		057CD4EF9646A8AE61A0781852886F18 /* Pods-SrollViewLoop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SrollViewLoop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		17E82352AD4BA0BD7FD1C36E1F0E854E /* Pods-SrollViewLoop_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SrollViewLoop_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2B51A1CC270690554C00BCB4BA69B7AD /* SrollViewLoop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SrollViewLoop-umbrella.h"; sourceTree = "<group>"; };
+		2E75A73F23A9B6732458343298F3B6C7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		544F2A567A10C1370B72DDD519683F59 /* SrollViewLoop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SrollViewLoop-prefix.pch"; sourceTree = "<group>"; };
+		5DDF68A8EBFD1EE65957C7B3E709497C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		619670096253C663FF93618AB4A28E7D /* Pods-SrollViewLoop_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SrollViewLoop_Tests-resources.sh"; sourceTree = "<group>"; };
+		63FD4DD0A1C5C3B1609CE7B0986B227D /* Pods-SrollViewLoop_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SrollViewLoop_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C08E1627FAFCDB58CD0F6A195760A25 /* Pods-SrollViewLoop_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SrollViewLoop_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		85AFD0D642331B411EACF8AC9ACC6873 /* Pods-SrollViewLoop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SrollViewLoop_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90E0EB1F4C6BC48EA45E6EBC375EDA4A /* Pods-SrollViewLoop_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SrollViewLoop_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9831C1229CE3D8267883D0D938C43607 /* Pods_SrollViewLoop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SrollViewLoop_Tests.framework; path = "Pods-SrollViewLoop_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4E4C051A50995C49F8040D627B8523 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C350A52FB7412E5C1A5ED2250E53E954 /* Pods-SrollViewLoop_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SrollViewLoop_Tests-dummy.m"; sourceTree = "<group>"; };
+		D02A5E5A10BD354E4F1622A4F6296D65 /* SrollViewLoop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SrollViewLoop.modulemap; sourceTree = "<group>"; };
+		E1A656F02BF388CE2888DED4F1811C4C /* SrollViewLoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SrollViewLoop.framework; path = SrollViewLoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15995578D01068B81DCC3EB8F09B801 /* SrollViewLoop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SrollViewLoop-dummy.m"; sourceTree = "<group>"; };
+		F27639C22ACD898B0A3826CF351F8E66 /* Pods-SrollViewLoop_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SrollViewLoop_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C09082D9776A8A83B85CE7863BC5370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CD55FE52292ADC50E64E68DFDF2267 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F27202861CEDD05825951EADE052C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D89198E463E2EAABF941BB6B6A6F71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C33A40716F93F42DD3AC74CA892401 /* Pods-SrollViewLoop_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BF4E4C051A50995C49F8040D627B8523 /* Info.plist */,
+				90E0EB1F4C6BC48EA45E6EBC375EDA4A /* Pods-SrollViewLoop_Tests.modulemap */,
+				63FD4DD0A1C5C3B1609CE7B0986B227D /* Pods-SrollViewLoop_Tests-acknowledgements.markdown */,
+				6C08E1627FAFCDB58CD0F6A195760A25 /* Pods-SrollViewLoop_Tests-acknowledgements.plist */,
+				C350A52FB7412E5C1A5ED2250E53E954 /* Pods-SrollViewLoop_Tests-dummy.m */,
+				17E82352AD4BA0BD7FD1C36E1F0E854E /* Pods-SrollViewLoop_Tests-frameworks.sh */,
+				619670096253C663FF93618AB4A28E7D /* Pods-SrollViewLoop_Tests-resources.sh */,
+				F27639C22ACD898B0A3826CF351F8E66 /* Pods-SrollViewLoop_Tests-umbrella.h */,
+				057CD4EF9646A8AE61A0781852886F18 /* Pods-SrollViewLoop_Tests.debug.xcconfig */,
+				85AFD0D642331B411EACF8AC9ACC6873 /* Pods-SrollViewLoop_Tests.release.xcconfig */,
+			);
+			name = "Pods-SrollViewLoop_Tests";
+			path = "Target Support Files/Pods-SrollViewLoop_Tests";
+			sourceTree = "<group>";
+		};
+		34C226E455F1225F51314B65555D70DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D202486C9FA53252969427216722DDD /* SrollViewLoop */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		56E63511A132A46C40F0FE7CE52FB36F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DDF68A8EBFD1EE65957C7B3E709497C /* Info.plist */,
+				D02A5E5A10BD354E4F1622A4F6296D65 /* SrollViewLoop.modulemap */,
+				05177BE0568A754371B3EDBBE0C77EAE /* SrollViewLoop.xcconfig */,
+				F15995578D01068B81DCC3EB8F09B801 /* SrollViewLoop-dummy.m */,
+				544F2A567A10C1370B72DDD519683F59 /* SrollViewLoop-prefix.pch */,
+				2B51A1CC270690554C00BCB4BA69B7AD /* SrollViewLoop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SrollViewLoop";
+			sourceTree = "<group>";
+		};
+		5D202486C9FA53252969427216722DDD /* SrollViewLoop */ = {
+			isa = PBXGroup;
+			children = (
+				FE4618FEEB3C72D287F2FF3782E34F95 /* SrollViewLoop */,
+				56E63511A132A46C40F0FE7CE52FB36F /* Support Files */,
+			);
+			name = SrollViewLoop;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				34C226E455F1225F51314B65555D70DF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D85C78726498190E39B8D19CC48C4ADC /* Products */,
+				89756757E6239677169A597A48D2BB90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89756757E6239677169A597A48D2BB90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C33A40716F93F42DD3AC74CA892401 /* Pods-SrollViewLoop_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D85C78726498190E39B8D19CC48C4ADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9831C1229CE3D8267883D0D938C43607 /* Pods_SrollViewLoop_Tests.framework */,
+				E1A656F02BF388CE2888DED4F1811C4C /* SrollViewLoop.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFC6FC25236013F79892A72F6F4FA249 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E75A73F23A9B6732458343298F3B6C7 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE4618FEEB3C72D287F2FF3782E34F95 /* SrollViewLoop */ = {
+			isa = PBXGroup;
+			children = (
+				DFC6FC25236013F79892A72F6F4FA249 /* Classes */,
+			);
+			name = SrollViewLoop;
+			path = SrollViewLoop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		383D6D17D2EFA1935DCA0AECD30501BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903430391C3758FFE7CDC45FAA0DDCEF /* SrollViewLoop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E0B6DBA2B5BB7CE0949A6385E74370 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474C43B566C8417A6E443041F4F9CE68 /* Pods-SrollViewLoop_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2AAB0F2176F7CB07BF82A340F5B3CBC /* SrollViewLoop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E70BE1881FF2B1BC3B723CF82EACC0D /* Build configuration list for PBXNativeTarget "SrollViewLoop" */;
+			buildPhases = (
+				61C53AC51BFDF2523708ACDAD903336C /* Sources */,
+				4C09082D9776A8A83B85CE7863BC5370 /* Frameworks */,
+				383D6D17D2EFA1935DCA0AECD30501BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SrollViewLoop;
+			productName = SrollViewLoop;
+			productReference = E1A656F02BF388CE2888DED4F1811C4C /* SrollViewLoop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D86134CFCBAF29773F5D5C4820BC9B53 /* Pods-SrollViewLoop_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952B7B6EBFD87B845E657813449F250A /* Build configuration list for PBXNativeTarget "Pods-SrollViewLoop_Tests" */;
+			buildPhases = (
+				D29D1C702358442A7D46C233B2B99FBA /* Sources */,
+				6F27202861CEDD05825951EADE052C64 /* Frameworks */,
+				67E0B6DBA2B5BB7CE0949A6385E74370 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF6853983A9F497968B4E2DEEDEF0E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SrollViewLoop_Tests";
+			productName = "Pods-SrollViewLoop_Tests";
+			productReference = 9831C1229CE3D8267883D0D938C43607 /* Pods_SrollViewLoop_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D85C78726498190E39B8D19CC48C4ADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D86134CFCBAF29773F5D5C4820BC9B53 /* Pods-SrollViewLoop_Tests */,
+				C2AAB0F2176F7CB07BF82A340F5B3CBC /* SrollViewLoop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61C53AC51BFDF2523708ACDAD903336C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E6E5CAF85D38B1FC06563F023A6B50 /* ReplaceMe.m in Sources */,
+				6FCBBF69FF250E666F4212FEB3C73D55 /* SrollViewLoop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D29D1C702358442A7D46C233B2B99FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404EC380B64A77ED500B2101781EE57C /* Pods-SrollViewLoop_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BF6853983A9F497968B4E2DEEDEF0E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SrollViewLoop;
+			target = C2AAB0F2176F7CB07BF82A340F5B3CBC /* SrollViewLoop */;
+			targetProxy = 197B8DD0382FFAACDCAA73D56F67AEB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127613B2CD88D992CD75B7C0E26B89C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85AFD0D642331B411EACF8AC9ACC6873 /* Pods-SrollViewLoop_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SrollViewLoop_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SrollViewLoop_Tests/Pods-SrollViewLoop_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SrollViewLoop_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C71C21316371E6AFC996FC768817E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05177BE0568A754371B3EDBBE0C77EAE /* SrollViewLoop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SrollViewLoop/SrollViewLoop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SrollViewLoop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SrollViewLoop/SrollViewLoop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SrollViewLoop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E338726978188BBEA3C3547CA96B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057CD4EF9646A8AE61A0781852886F18 /* Pods-SrollViewLoop_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SrollViewLoop_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SrollViewLoop_Tests/Pods-SrollViewLoop_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SrollViewLoop_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA65142A93718D502468483AAC8B42F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05177BE0568A754371B3EDBBE0C77EAE /* SrollViewLoop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SrollViewLoop/SrollViewLoop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SrollViewLoop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SrollViewLoop/SrollViewLoop.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SrollViewLoop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E70BE1881FF2B1BC3B723CF82EACC0D /* Build configuration list for PBXNativeTarget "SrollViewLoop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA65142A93718D502468483AAC8B42F8 /* Debug */,
+				7C71C21316371E6AFC996FC768817E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952B7B6EBFD87B845E657813449F250A /* Build configuration list for PBXNativeTarget "Pods-SrollViewLoop_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E338726978188BBEA3C3547CA96B95 /* Debug */,
+				127613B2CD88D992CD75B7C0E26B89C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

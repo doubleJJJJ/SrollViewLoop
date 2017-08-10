@@ -1,0 +1,16 @@
+PODS:
+  - SrollViewLoop (0.1.0)
+
+DEPENDENCIES:
+  - SrollViewLoop (from `../`)
+
+EXTERNAL SOURCES:
+  SrollViewLoop:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SrollViewLoop: 83e30ba68f6bbb16dd09173b1f93a9c62486eb41
+
+PODFILE CHECKSUM: 87082730f865a6700e3d72b2a141b3b381286c93
+
+COCOAPODS: 1.2.1

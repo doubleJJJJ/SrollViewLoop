@@ -1,0 +1,22 @@
+{
+  "name": "SrollViewLoop",
+  "version": "0.1.0",
+  "summary": "A short description of SrollViewLoop.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/doubleJJ/SrollViewLoop",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "doubleJJ": "517469920@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/doubleJJ/SrollViewLoop.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SrollViewLoop/Classes/**/*"
+}
